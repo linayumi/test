@@ -1,0 +1,50 @@
+@charset "gb2312";
+/* CSS Document */
+body,h1,h2,h3,p,dl,dd,ol,ul,th,td,fieldset,input,button,textarea,form,canvas,audio,video,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{margin:0;padding:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;word-wrap:break-word}
+h1,h2,h3{font-size:100%}
+ol,ul{list-style:none}
+ 
+img{border:0;width:100%;-ms-interpolation-mode:bicubic} 
+
+
+ 
+a{ color:#333; text-decoration:none;  }
+a:hover{ color:#666; text-decoration:none; }
+ 
+
+.relative{position:relative;left:0;top:0;}
+.clearfix:before,.clearfix:after{content:"";display:table;}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+.opacity6{ -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; /* ie8  */filter:alpha(opacity=60);    /* ie5-7  */opacity:0.6;/* css standard, currently it works in most modern browsers  */}
+.app_center{width:100%; margin-left:auto;margin-right:auto;}
+.gwexbe{margin:0px auto;  clear:both;}
+.gwexbe_box{overflow:hidden;visibility:hidden;position:relative;}
+.gwexbe_wrap{overflow:hidden; position:relative;}
+.gwexbe_wrap li{position:relative;display:block;width:100%;float:left;}
+.gwexbe_wrap li a{display:block;margin:0 auto;position:relative;}
+.gwexbe_position{position:absolute; right:4%;z-index:400px;bottom:8px;}
+.gwexbe_position li{display:inline-block;width:10px;height:10px;border-radius:7px;background:#FFF;margin-left:5px}
+.gwexbe_position li a{font-size:0;}
+.gwexbe_position li.on{background-color:#09F;}
+
+ 
+.clear{ clear:both; height:0px; width:100%; font-size:1px; line-height:0px; visibility:hidden; overflow:hidden;}
+.fl{ float:left;}
+.fr{ float:right;}
+ 
+ .tel a{ display: block; background:#F5540A; line-height:35px; height:35px; margin: 4px; text-align:center; color:#fff;}
+ 
+ .msn{ background:#34C5DA; padding:20px 0}
+.msna{ width:90%; margin:0 auto}
+.msna li{  clear:both; margin-bottom:15px; }
+.msnb{ width:70px; float:left; text-align: right; line-height:25px; height:25px;  }
+input{ line-height:25px; height:25px; border:1px #DDDDDD solid ;border-radius:4px;  }
+textarea{   border:1px #DDDDDD solid ;border-radius:4px;  }
+select{ line-height:25px; height:25px; border:1px #DDDDDD solid ;border-radius:4px;}
+li{ list-style:none;} 
+.coolbg {height:31px; width:100%; background:#DE5E03; float:left; border:none; color:#ffffff; }
+.coolbg:hover{background:#999;text-decoration:none} 
